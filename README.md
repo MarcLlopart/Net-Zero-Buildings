@@ -5,7 +5,7 @@ An analysis on Spain's energy efficiency
 ### Exploratory Data Analysis - 30 pts
 
 Conduct an EDA **on ONE country of your choice**. What insights can you derive?
--   Identify the most cost-effective renovation mesures in terms of energy reduction (kWh/m^2 saverd per cost unit).
+-   Identify the most cost-effective renovation mesures in terms of energy reduction (kWh/m^2 saved per cost unit).
 -   Determine the most financially efficient renovation measures in terms of energy cost savings per investment dollar.
 -   Analyze which building elements have the greatest impact on energy consumption.
 

@@ -1,0 +1,70 @@
+Field name,Description,Type
+NUM_CAS ,"Identifier of the energy efficiency certificate procedure",String
+ADREÇA ,Street name,String
+NUMERO ,Street number,String
+ESCALA ,Scale,String
+PIS ,Bad,Integer
+PORTA ,Brings,String
+CODI_POSTAL ,Postal code,Integer
+POBLACIO ,Municipality (according to Idescat's table of municipalities in Catalonia),String
+COMARCA ,County (according to the table of counties of Catalonia and the unique territorial entity of Aran de Idescat),String
+NOM_PROVINCIA,Province,String
+CODI_POBLACIO,Municipality code (according to Idescat's table of municipalities in Catalonia),Integer
+CODI_COMARCA,County code (according to the table of counties of Catalonia and the unique territorial entity of Aran de Idescat),Integer
+CODI_PROVINCIA,Province code (according to the INE table of provinces),Integer
+REFERENCIA CADASTRAL,Cadastral reference of the building,String
+ZONA CLIMATICA,Climatic zone according to DB H1 of the Technical Building Code.,String
+METRES_CADASTRE ,Superficial (m2),Float
+ANY_CONSTRUCCIO,Year of construction,Integer
+US_EDIFICI ,"Use of the building (housing, tertiary)",String
+Qualificació de consum d'energia primaria no removable,Non-renewable primary energy rating letter (AG),String
+Energia primària no renovable ,Non-renewable primary energy value [kWh / m2 · year],Float
+Qualificacio d'emissions de CO2 ,CO2 emission rating letter (AG),String
+Emissions de CO2,Value of CO2 emissions [kg CO2/m2 any],Float
+Consum d'energia final,Energy at the point of consumption equivalent to energy consumption [kWh / m2 · year],Float
+Cost anual aproximat d'energia per habitatge,Approximate annual cost of energy per home,Float
+VEHICLE ELECTRIC ,It has an electric vehicle charging point (Yes / No),String
+SOLAR TERMICA ,It has solar thermal installation (Yes / no),String
+SOLAR FOTOVOLTAICA,It has photovoltaic installation (Yes / no),String
+SISTEMA BIOMASSA,It has biomass installation (Yes / no),String
+XARXA DISTRICTE ,It has connection to a district network of generation of heat and / or cold (Yes / no),String
+ENERGIA GEOTERMICA ,It has geothermal installation (Yes / no),String
+INFORME_INS_TECNICA_EDIFICI ,Code of the certificate of aptitude of the Technical Inspection of the Building of Houses (IITE),String
+Eina de certificacio ,Tool used to perform the certificate,String
+VALOR AILLAMENTS ,Medium façade transmittance [W / m2 · K],Float
+VALOR FINESTRES ,Average window transmittance [W / m2 · K],Float
+Motiu de la certificacio,"Reason for certification (new construction, rental, sale,)",String
+VALOR AILLAMENTS CTE,Maximum façade transmittance according to CTE [W / m2 · K],Float
+VALOR FINESTRES CTE ,Maximum window transmittance according to CTE [W / m2 · K],Foat
+UTM_X ,UTM X coordinates,Float
+UTM_Y ,UTM Y coordinates,Float
+Normativa construcció ,Construction regulations (CTE),String
+Tipus Tramit ,"Type of procedure (new construction, existing)",String
+TIPUS_TERCIARI ,"Tertiary type (offices, catering,…)",String
+Qualificació emissions calefacció ,Qualification of CO2 emissions associated with the heating service (AG),String
+Emissions calefacció ,CO2 emissions associated with the heating service [kg CO2 / m2 · year],Float
+Qualificació emissions refrigeració ,Qualification of CO2 emissions associated with the refrigeration service (AG),String
+Emissions refrigeració,CO2 emissions associated with the refrigeration service [kg CO2 / m2 · year],Float
+Qualificació emissions ACS ,Qualification of CO2 emissions associated with the DHW service,String
+Emissions ACS ,CO2 emissions associated with the DHW service [kg CO2 / m2 · year],Float
+Qualificació emissions enllumenament,Qualification of CO2 emissions associated with the lighting service (AG),String
+Emissions enllumenament,CO2 emissions associated with the lighting service [kg CO2 / m2 · year],Float
+Qualificació energia calefacció,Qualification of non-renewable primary energy consumption by the heating service (AG),Sting
+Energia calefacció,Non-renewable primary energy consumption by heating service [kWh / m2 · year],Float
+Qualificació energia refrigeració ,Qualification of non-renewable primary energy consumption by the refrigeration service (AG),String
+Energia refrigeració ,Non-renewable primary energy consumption by refrigeration service [kWh / m2 · year],Float
+Qualificació energia ACS ,Qualification of non-renewable primary energy consumption for domestic hot water service (AG),String
+Energia ACS ,Non-renewable primary energy consumption by DHW service [kWh / m2 · year],Float
+Qualificació energia enllumenament,Non-renewable primary energy consumption rating by the lighting service (AG),String
+Energia enllumenament ,Non-renewable primary energy consumption by lighting service [kWh / m2 · year],Float
+Qualificació energia calefacció demanda ,Heating energy demand (AG) rating,String
+Energia calefacció demanda ,Heating energy demand [kWh / m2 · year],Float
+Qualificació energia refrigeració demanda,Refrigeration energy demand (AG) rating,String
+Energia refrigeració demanda ,Refrigeration energy demand [kWh / m2 · year],Float
+VENTILACIO US RESIDENCIAL ,Ventilation rate for residential use [ren / h],Float
+LONGITUD,Length expressed in decimal degrees. WGS84 reference system,Float
+LATITUD ,Latitude expressed in decimal degrees. WGS84 reference system,Float
+GEOREFERÈNCIA ,Georeference column,String
+REHABILITACIO_ENERGETICA ,Energy rehabilitation has been carried out [Yes / no],String
+ACTUACIONS_REHABILITACIO ,Rehabilitation actions,String
+DATA_ENTRADA,Date of registration,Date
